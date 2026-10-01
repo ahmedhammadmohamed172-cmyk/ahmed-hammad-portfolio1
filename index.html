@@ -1,1 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Ahmed Hammad | Data Analyst Portfolio</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #0b1120;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        header {
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 40px 20px;
+        }
+
+        .hero {
+            max-width: 900px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 15px;
+        }
+
+        .hero h1 span {
+            color: #22d3ee;
+        }
+
+        .hero h2 {
+            font-size: 25px;
+            color: #94a3b8;
+            margin-bottom: 20px;
+        }
+
+        .hero p {
+            color: #cbd5e1;
+            font-size: 18px;
+            margin-bottom: 30px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            text-decoration: none;
+            padding: 12px 24px;
+            margin: 5px;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .primary {
+            background: #22d3ee;
+            color: #0b1120;
+        }
+
+        .secondary {
+            border: 1px solid #22d3ee;
+            color: #22d3ee;
+        }
+
+        section {
+            padding: 80px 10%;
+        }
+
+        section h2 {
+            text-align: center;
+            font-size: 35px;
+            margin-bottom: 40px;
+            color: #22d3ee;
+        }
+
+        .about {
+            max-width: 900px;
+            margin: auto;
+            text-align: center;
+            color: #cbd5e1;
+            font-size: 18px;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .skill {
+            background: #111827;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            border: 1px solid #1e293b;
+        }
+
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .project {
+            background: #111827;
+            padding: 25px;
+            border-radius: 12px;
+            border: 1px solid #1e293b;
+        }
+
+        .project h3 {
+            color: #22d3ee;
+            margin-bottom: 10px;
+        }
+
+        .project p {
+            color: #cbd5e1;
+            margin-bottom: 15px;
+        }
+
+        .project a {
+            color: #22d3ee;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .services {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 20px;
+        }
+
+        .service {
+            background: #111827;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        .service h3 {
+            color: #22d3ee;
+            margin-bottom: 10px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 40px 20px;
+            background: #070b14;
+            color: #94a3b8;
+        }
+
+        .contact a {
+            color: #22d3ee;
+            text-decoration: none;
+        }
+
+        @media (max-width: 600px) {
+            .hero h1 {
+                font-size: 40px;
+            }
+
+            section {
+                padding: 60px 6%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="hero">
+
+            <h1>Hi, I'm <span>Ahmed Hammad</span></h1>
+
+            <h2>Data Analyst | Python | SQL | Data Operations</h2>
+
+            <p>
+                I am an Artificial Intelligence student interested in
+                Data Analysis, Data Operations, and business-focused solutions.
+                I enjoy turning data into useful insights and practical results.
+            </p>
+
+            <div class="buttons">
+                <a href="#projects" class="primary">View My Projects</a>
+                <a href="#contact" class="secondary">Contact Me</a>
+            </div>
+
+        </div>
+    </header>
+
+
+    <section id="about">
+
+        <h2>About Me</h2>
+
+        <div class="about">
+
+            <p>
+                I am an Artificial Intelligence student with hands-on experience
+                in Python, SQL, data cleaning, data analysis, and databases.
+                I am continuously developing my skills in Data Analytics and
+                Data Engineering while building practical projects.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <section id="skills">
+
+        <h2>Skills</h2>
+
+        <div class="skills">
+
+            <div class="skill">Python</div>
+            <div class="skill">SQL</div>
+            <div class="skill">Pandas</div>
+            <div class="skill">Data Cleaning</div>
+            <div class="skill">Data Analysis</div>
+            <div class="skill">Excel</div>
+            <div class="skill">Power BI</div>
+            <div class="skill">Databases</div>
+            <div class="skill">APIs</div>
+            <div class="skill">Git & GitHub</div>
+            <div class="skill">ETL / ELT</div>
+            <div class="skill">Microsoft Azure</div>
+
+        </div>
+
+    </section>
+
+
+    <section id="projects">
+
+        <h2>Projects</h2>
+
+        <div class="projects">
+
+            <div class="project">
+
+                <h3>House Price Prediction</h3>
+
+                <p>
+                    End-to-end machine learning project for predicting house
+                    prices using Python and Scikit-learn.
+                </p>
+
+                <p>
+                    <strong>Tools:</strong>
+                    Python, Pandas, Scikit-learn, FastAPI, React
+                </p>
+
+                <a href="#" target="_blank">
+                    View Project →
+                </a>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>Data Analysis Projects</h3>
+
+                <p>
+                    Practical data analysis projects involving data cleaning,
+                    exploration, transformation, and extracting useful insights.
+                </p>
+
+                <p>
+                    <strong>Tools:</strong>
+                    Python, Pandas, SQL, Excel
+                </p>
+
+                <a href="#" target="_blank">
+                    View Projects →
+                </a>
+
+            </div>
+
+
+            <div class="project">
+
+                <h3>SQL Database Projects</h3>
+
+                <p>
+                    Database projects focused on SQL queries, relationships,
+                    data manipulation, and database design.
+                </p>
+
+                <p>
+                    <strong>Tools:</strong>
+                    SQL Server, SQL
+                </p>
+
+                <a href="#" target="_blank">
+                    View Project →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="services">
+
+        <h2>Services</h2>
+
+        <div class="services">
+
+            <div class="service">
+
+                <h3>Data Cleaning</h3>
+
+                <p>
+                    Cleaning and preparing datasets for analysis.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <h3>Data Analysis</h3>
+
+                <p>
+                    Exploring datasets and extracting useful insights.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <h3>Excel & Power BI</h3>
+
+                <p>
+                    Creating reports, dashboards, and data visualizations.
+                </p>
+
+            </div>
+
+
+            <div class="service">
+
+                <h3>Python Data Tasks</h3>
+
+                <p>
+                    Automating simple data tasks using Python and Pandas.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section id="contact">
+
+        <h2>Contact Me</h2>
+
+        <div class="about contact">
+
+            <p>
+                Interested in working together or discussing a project?
+            </p>
+
+            <br>
+
+            <p>
+                LinkedIn:
+                <a href="#" target="_blank">
+                    My LinkedIn
+                </a>
+            </p>
+
+            <p>
+                GitHub:
+                <a href="#" target="_blank">
+                    My GitHub
+                </a>
+            </p>
+
+            <p>
+                Email:
+                <a href="mailto:your-email@example.com">
+                    your-email@example.com
+                </a>
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <footer>
+
+        <p>
+            © 2026 Ahmed Hammad. All Rights Reserved.
+        </p>
+
+    </footer>
+
+</body>
+</html>
